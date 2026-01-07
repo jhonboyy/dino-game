@@ -3,7 +3,9 @@
   "scripts": {
     "lint": "prettier --check .",
     "lint-fix": "prettier --write .",
-    "start": "reload"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "volta": {
     "node": "16.15.0",
@@ -11,5 +13,8 @@
   },
   "dependencies": {
     "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
   }
 }
