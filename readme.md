@@ -13,16 +13,17 @@ This project uses [Vite](https://vitejs.dev/) for development and building.
 
 ### Commands
 
-- **Install dependencies**: `npm install`
-- **Start dev server**: `npm run dev`
-- **Build for production**: `npm run build`
-- **Preview build**: `npm run preview`
+- **Install dependencies**: `pnpm install`
+- **Start dev server**: `pnpm dev`
+- **Build for production**: `pnpm build`
+- **Preview build**: `pnpm preview`
 
 ## Deployment (Cloudflare Pages)
 
 The project is configured for Cloudflare Pages.
+
 - **Build output directory**: `dist`
-- **Build command**: `npm run build`
+- **Build command**: `pnpm build`
 
 ## License
 
